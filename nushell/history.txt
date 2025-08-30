@@ -1,0 +1,261 @@
+ls
+cd
+ls
+ls -a
+lsd
+ls
+ls -a
+cd .config/
+ls
+cd nushell/
+ls
+ls- a
+ls -a
+ls
+cd
+xdg-open 2025-08-28-201530_hyprshot.png
+ls -a | sort 
+ls -a | named emacs
+ls
+q
+cd ~/.config/
+ls
+find nu
+ls -a | grep "nu"
+cd nushell/
+s
+ls
+nvim
+exit
+ls
+cd ~/.config/
+ls
+ls -a
+;s
+ls
+ls -a | sortby size
+ls -a | sort-by size
+ls -a | sort-by size | revers
+ls -a | sort-by size | reverse
+which nu
+ls -a | where size > 10Mb
+ls -a | where size > 1Mb
+ls -a | where size > 1Kb
+ls -a | where size > 10Kb
+which nu
+sudo chsh -s
+sudo chsh -s $(which nu)
+sudo chsh -s /usr/sbin/nu
+reboot
+fastfetch
+which nu
+$in
+echo $in
+which nu
+echo $in
+sudo chsh -s /usr/sbin/nu
+which nu
+where nu
+echo "/usr/sbin/nu" | sudo tee -a /etc/shells
+chsh -s /usr/sbin/nu
+sudo chsh -s /usr/sbin/nu
+ls -la /usr/sbin/nu<\n>file /usr/sbin/nu
+sudo vipw
+cd /etc/passwd
+sudo nvim /etc/passwd
+echo $SHELL
+echo $env.SHELL
+r
+reboot
+ps
+ps | where status=Running
+ps | where status == Running
+ps | where status == Running | reverse
+ps | where virtual > 2Gb
+ls
+$in | reverse
+ls | sort-by size | reverse | first | get name | cp $in ~
+ls
+echo $in
+ls
+$in
+ls
+ls -a | describe
+ls -a | where modified > 5 days ago | sort-by size | reverse
+ls -a | where modified > 5 | sort-by size | reverse
+ls -a | where modified <= date now | sort-by size | reverse
+ls -a | where modified <= 0 | sort-by size | reverse
+ls -a | where modified has 5 | sort-by size | reverse
+ls -a | where modified >= 2025-02-02 | sort-by size | reverse
+ls -a | where modified >= 2025-08-25 | sort-by size | reverse
+yay -S carapace-bin
+exit
+ping google.com
+yay -S carapace-bin
+yay -S starship
+echo '<\n>source ~/.cache/carapace/init.nu<\n>starship init nu | save -f ~/.cache/starship/init.nu<\n>' >> ~/.config/nushell/config.nu
+nu --version
+yay -S nushell
+starship
+starship --togle
+starship toggke
+starship toggle
+starship --toggle
+yay -S carapace-bin
+nvim ~/.config/nushell/config.nu
+mkdir -p ~/.config/starship
+mkdir ~/.config/starship
+cd ~/.config/starship/
+nvim
+ls
+cd ../
+rm -rf starship/
+nvim starship.toml
+exec nu<\n># или<\n>source ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+find carapace
+ls
+ls | where name = carapace
+ls | where name == carapace
+ls ~/.cache | where name == carapace
+rm -f ~/.cache/carapace/init.nu<\n>carapace _carapace nushell | save -f ~/.cache/carapace/init.nu
+carapace
+exec nu<\n># или<\n>source ~/.config/nushell/config.nu
+cd ~/.config/nushell/
+nvim
+exit
+exec nu<\n># или<\n>source ~/.config/nushell/config.nu
+cd ~/.config/nushell/
+cd ~/.cache/
+ls
+ls -a | where name == carapace
+exec nu<\n># или<\n>source ~/.config/nushell/config.nu
+# Создайте директории<\n>mkdir -p ~/.cache/carapace ~/.cache/starship<\n><\n># Создайте carapace completions<\n>carapace _carapace nushell > ~/.cache/carapace/init.nu<\n><\n># Создайте starship init<\n>starship init nu > ~/.cache/starship/init.nu
+# Создайте директории<\n>mkdir ~/.cache/carapace ~/.cache/starship<\n><\n># Создайте carapace completions<\n>carapace _carapace nushell > ~/.cache/carapace/init.nu<\n><\n># Создайте starship init<\n>starship init nu > ~/.cache/starship/init.nu
+nvim
+q
+exit
+starship init nu >> ~/.cache/starship/init.nu
+touch ~/.cache/starship/init.nu
+starship init nu >> ~/.cache/starship/init.nu
+exec nu<\n># или<\n>source ~/.config/nushell/config.nu
+touch ~/.cache/carapace/init.nu
+starship
+starship init
+starship init nu
+starship init nu > test.txt
+echo starship init nu
+echo (starship init nu)
+echo (starship init nu) > test.txt
+ls
+ls | where name == te
+ls | grep te
+ls
+touch text.txt
+echo (starship init nu) > text.txt
+ls
+ls | where name == te
+ls
+ls | grep te
+nvim text.txt
+starship init nu
+cd ~/.config/starship.toml
+nvim ~/.config/starship.toml
+ls
+mkdir ($nu.data-dir | path join "vendor/autoload")<\n>starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
+exit
+ls
+nvim ~/.config/fish/config.fish
+ls
+cd ~/.config/nushell/
+nvim
+yay -S carapace-bin
+nvim
+exit
+ls
+cd ~/.config/kitty
+nvi
+nvim
+cd ../nushell/
+nvim
+cd ../starship.toml
+nvim ../starship.toml 
+nvim ~/.config/starship.toml 
+ls
+cd ~/.config/
+ks
+ls
+nvim ~/.config/starship.toml 
+ls
+ls | where size >= 5Kb
+echo Hello world
+echo "Hello world"
+git statis
+git status
+cd cpp/BadButBetterRayTraiser/
+git status
+ls
+cd
+clear
+nvim ~/.config/nushell/config.nu 
+exit
+nvim ~/.config/fish/config.fish 
+nvim ~/.config/starship.toml 
+nvim ~/.config/nushell/config.nu 
+ды
+ls
+nvim ~/.config/fish/config.fish 
+ls
+nvim ~/.config/nushell/config.nu 
+iwctk
+iwctl
+ipconfig /all
+cmatrix
+yay -S cmatrix
+cmatrix
+с
+c
+clear
+ssh user@192.168.0.124 
+ssh user@192.168.0.116
+ping google.com
+cd ~/.ssh/
+ls
+nvim
+kitty
+btop
+ls
+cd
+ls
+git clone git@github.com:zeusf1re/dot-files.git
+ls
+cd dot-files/
+ls
+rm -rf *
+ls
+cp ~/.config/hypr hypr
+cp -r ~/.config/hypr hypr
+ls
+cd hypr
+nvim
+cp -r ~/.config/fish fish
+cp -r ~/.config/kitty kitty
+cp -r ~/.config/nvim nvim
+cp -r ~/.config/nushell/ nushell
+cp -r ~/.config/starship.toml starship.toml
+cp -r ~/.config/carapace/ carapace
+cp -r ~/.config/lsd lsd
+cp -r ~/.config/yazi yazi
+ls
+rm -rf hypr*
+;s
+ls
+cd dot-files/
+ls
+cp -r ~/.config/yazi yazi
+ls
+cp -r ~/.config/lsd lsd
+cp -r ~/.config/carapace/ carapace
+ls
+cp -r ~/.config/starship.toml starship.toml
+ls

@@ -1,0 +1,143 @@
+# Kanagawa Wave theme for Yazi
+# Based on the beautiful Kanagawa color scheme
+
+# Основные цвета
+bg = "#1F1F28"
+fg = "#DCD7BA"
+border = "#54546D"
+scrollbar = "#727169"
+
+# Выделение
+selection_bg = "#223249"
+selection_fg = "#DCD7BA"
+hovered_bg = "#2D4F67"
+hovered_fg = "#DCD7BA"
+
+# Статусная строка
+status_bg = "#1F1F28"
+status_fg = "#DCD7BA"
+status_error_bg = "#E82424"
+status_error_fg = "#1F1F28"
+status_warn_bg = "#FF9E3B"
+status_warn_fg = "#1F1F28"
+status_info_bg = "#7E9CD8"
+status_info_fg = "#1F1F28"
+status_success_bg = "#98BB6C"
+status_status_success_fg = "#1F1F28"
+
+# Вкладки
+tab_active_bg = "#223249"
+tab_active_fg = "#DCD7BA"
+tab_inactive_bg = "#1F1F28"
+tab_inactive_fg = "#727169"
+tab_separator = "#54546D"
+
+# Список файлов
+file_fg = "#DCD7BA"
+file_bg = "#1F1F28"
+file_highlighted_bg = "#223249"
+file_highlighted_fg = "#DCD7BA"
+file_selected_bg = "#2D4F67"
+file_selected_fg = "#DCD7BA"
+
+# Иконки и типы файлов
+directory_fg = "#7E9CD8"
+executable_fg = "#98BB6C"
+link_fg = "#7FB4CA"
+broken_link_fg = "#E82424"
+
+# Предпросмотр
+preview_border = "#54546D"
+preview_title_bg = "#223249"
+preview_title_fg = "#DCD7BA"
+
+# Вспомогательные цвета для разных типов файлов
+filetype_video_fg = "#FF9E3B"
+filetype_audio_fg = "#7AA89F"
+filetype_image_fg = "#E6C384"
+filetype_document_fg = "#C8C093"
+filetype_archive_fg = "#957FB8"
+filetype_code_fg = "#7FB4CA"
+filetype_config_fg = "#6A9589"
+
+# Прогресс бар
+progress_bg = "#223249"
+progress_fg = "#7E9CD8"
+
+# Поиск
+find_bg = "#E6C384"
+find_fg = "#1F1F28"
+find_failed_bg = "#E82424"
+find_failed_fg = "#1F1F28"
+
+# Модальные окна
+modal_bg = "#1F1F28"
+modal_fg = "#DCD7BA"
+modal_border = "#7E9CD8"
+
+# Командная строка
+cmdline_bg = "#1F1F28"
+cmdline_fg = "#DCD7BA"
+
+# Подсказки
+hint_bg = "#223249"
+hint_fg = "#7E9CD8"
+
+# Контекстное меню
+context_menu_bg = "#1F1F28"
+context_menu_fg = "#DCD7BA"
+context_menu_highlighted_bg = "#223249"
+context_menu_highlighted_fg = "#DCD7BA"
+
+# Уведомления
+notification_bg = "#1F1F28"
+notification_fg = "#DCD7BA"
+notification_border = "#54546D"
+
+# Тени (для эффектов)
+shadow = "#090618"
+# # general 
+
+# [mgr]
+# marker_copied   = { fg = "#98bb6c", bg = "#98bb6c" }
+# marker_cut      = { fg = "#e46876", bg = "#e46876" }
+# marker_marked   = { fg = "#957fb8", bg = "#957fb8" }
+# marker_selected = { fg = "#ffa066", bg = "#ffa066" }
+#
+# cwd = { fg = "#e6c384" }
+# preview_hovered = { reversed = true }
+# syntect_theme = "~/.config/yazi/syntect/kanagawa.tmTheme"
+#
+# # status-line
+# [status]
+# separator_open = ""
+# separator_close = ""
+# separator_style = { fg = "reset", bg = "#363646" }
+#
+# mode_normal = { fg = "#1f1f28", bg = "#85a6ea", bold = true }
+# mode_select = { fg = "#1f1f28", bg = "#957fb8", bold = true }
+# mode_unset  = { fg = "#1f1f28", bg = "#e6c384", bold = true }
+#
+# progress_label  = { fg = "#85a6ea", bg = "#363646", bold = true }
+# progress_normal = { fg = "#363646", bg = "#1f1f28" }
+# progress_error  = { fg = "#363646", bg = "#1f1f28" }
+#
+# [which]
+# cols = 2
+# separator = " - "
+# mask = { bg = "#131319" }
+# cand = { fg = "#85a6ea" }
+# desc = { fg = "#565666" }
+#
+# # files
+# [filetype]
+# rules = [
+#     { mime = "image/*", fg = "#e6c384" },
+#     { mime = "{audio,video}/*", fg = "#957fb8" },
+#     { mime = "application/{,g}zip", fg = "#e46876" },
+#     { mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#e46876" },
+#     { mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#6a9589" },
+#     { name = "*", is = "orphan", fg = "#e46876" },
+#     { name = "*", is = "exec", fg = "#957fb8" },
+#     { name = "*/", fg = "#85a6ea"}
+# ]

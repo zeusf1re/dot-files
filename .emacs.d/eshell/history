@@ -1,0 +1,21 @@
+ls
+l
+l
+l
+l
+fastfetch
+exit
+fastfetch 
+fastfetch
+   Disk  : 43.75 GiB / 446.13 GiB (10%) - f2fs  󱫐 Uptime  : 4 hours, 10 mins└───────────────────────────────────────────────┘
+clear 
+clear-scrollback 
+cat init.el 
+pacman -S chromium
+sudo pacman -S chromium
+ls cd
+cd 
+cd downloads
+ls
+lsd
+lsblk -f

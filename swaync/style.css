@@ -1,0 +1,99 @@
+/* Catppuccin Mocha Theme for SwayNC */
+.notification {
+  background-color: #1e1e2e;
+  border: 2px solid #313244;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 10px;
+  color: #cdd6f4;
+  font-family: "FiraCode Nerd Font";
+  icon-size: 32px;
+}
+
+.notification-content {
+  background: transparent;
+}
+
+.summary {
+  color: #89b4fa;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.body {
+  color: #bac2de;
+  font-size: 12px;
+}
+
+.close-button {
+  background-color: #f38ba8;
+  color: #1e1e2e;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+.control-center {
+  background-color: #181825;
+  border: 2px solid #45475a;
+  border-radius: 12px;
+}
+
+.notification-row:focus,
+.notification-row:hover {
+  background: rgba(166, 227, 161, 0.1);
+}
+
+.progress-bar {
+  background-color: #585b70;
+  border-radius: 3px;
+}
+
+.progress-bar progress {
+  background-color: #a6e3a1;
+  border-radius: 3px;
+}
+
+/* Цвета для разных уровней уведомлений */
+.low {
+  border-left: 3px solid #89b4fa;
+}
+
+.normal {
+  border-left: 3px solid #cba6f7;
+}
+
+.critical {
+  border-left: 3px solid #f38ba8;
+}
+
+.urgency-low .summary {
+  color: #89b4fa;
+}
+
+.urgency-normal .summary {
+  color: #cba6f7;
+}
+
+.urgency-critical .summary {
+  color: #f38ba8;
+  animation: critical-alert 2s infinite;
+}
+/* Основные стили */
+
+/* Стили для виджетов */
+.widget-title {
+  color: #89b4fa;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.widget-dnd {
+  padding: 10px;
+  background: #181825;
+  border-radius: 8px;
+}
+@keyframes critical-alert {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
