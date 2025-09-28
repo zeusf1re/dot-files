@@ -1,0 +1,90 @@
+
+[[rules]]
+name = "*.md"
+use = "/usr/sbin/QOwnNotes \"$@\""
+
+[[rules]]
+mime = "text/markdown" 
+use = "/usr/sbin/QOwnNotes \"$@\""
+
+[[rules]]
+mime = "text/*"
+use = "kitty vim -- \"$@\""
+
+[[rules]]
+mime = "inode/x-empty"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.txt"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = ".config"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.json"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.yml"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.yaml"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.xml"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.html"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.css"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.js"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.ts"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.py"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.rs"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.go"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.lua"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.sh"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.zsh"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.conf"
+use = "kitty nvim -- \"$@\""
+
+[[rules]]
+name = "*.config"
+use = "kitty nvim -- \"$@\""
+
+# Добавьте другие текстовые форматы по необходимости

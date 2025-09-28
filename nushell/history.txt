@@ -259,3 +259,1670 @@ cp -r ~/.config/carapace/ carapace
 ls
 cp -r ~/.config/starship.toml starship.toml
 ls
+cp -r ~/.config/nushell/ nushell
+ls
+cp -r ~/.config/nvim nvim
+ls
+cp -r ~/.config/kitty/ kitty
+ls
+cp -r ~/.config/fish/ fish
+ls
+cd ~/.config/
+ls
+cd ~/dot-files/
+ls
+cd
+ls
+ls -a
+cd dot-files/
+ls
+cp ~/.emacs.d/ .emacs.d
+cp -r ~/.emacs.d/ .emacs.d
+ls
+ls -a
+cp -e ~/.config/Thunar/ Thunar
+cp -r ~/.config/Thunar/ Thunar
+cp -r ~/.config/waybar waybar
+cp -r ~/.config/swaync/ swaync
+ls
+cd hypr/
+nvim
+ls
+cd ..
+ls
+rm -rf hypr
+ls
+cp -r ~/.config/hypr hypr
+ls
+cd hypr
+nvim
+cp ~/images/wallpapers/kanagawa.jpg wallpapers/kanagawa.jpg
+nvim
+cp ~/images/милая_кошечка.jpg wallpapers/милая_кошечка.jpg
+тмшь
+nvim
+git status
+git add .
+git commit -m "full redesign"
+cd ..
+ls
+git status
+git reset --soft HEAD~1
+git status
+git add .
+git status
+git commit -m "full redesign in kanagawa"
+git push
+cd ~/.config/carapace
+nvim
+yazi
+ls
+cmatrix
+ssh user@192.168.0.116
+ls
+nvim
+cd
+ls
+yazi
+ls
+cd cpp
+ls
+cd ntype
+ls
+vim
+ls
+cd ~/cpp/ntype/
+g++ main.cp
+g++ main.cpp
+./a.out
+g++ main.cpp
+nvim
+cd ~/.config/nvim
+tree
+ойми, прошу<\n>Ты очень-очень мне нужна<\n>Пойми, ведь я тобой дышу<\n>Ты в это вряд ли влюблена<\n>Но я живу, пока держу<\n>Твою ладонь в своей руке<\n>И трещины на потолке<\n>Напоминают мне о том<\n>Что без тебя я был никемls
+ls
+cd ~/.config/nvimqq
+nvim
+nvim
+exit
+fish
+upower -i $(upower -e | grep battery) | grep -E "(model|energy-full|energy-full-design|capacity)"
+upower -i ($(upower -e | grep battery)) | grep -E "(model|energy-full|energy-full-design|capacity)"
+let battery_path = (upower -e | grep battery)
+upower -i $battery_path | grep -E "(model|energy-full|energy-full-design|capacity)"
+s
+upower -i $battery_path | grep -E "(model|energy-full|energy-full-design|capacity)"
+let battery_path = (upower -e | grep battery)
+upower -i $battery_path | grep -E "(model|energy-full|energy-full-design|capacity)"
+yay -S hwinfo 
+sudo hwinfo --monitor
+cat /sys/class/drm/card0-eDP-1/mode
+sudo cat /sys/class/drm/card0-eDP-1/edid | edid-decode | grep -A1 "Display Product Name"
+sudo pacman -S edid-decode
+sudo hwinfo --monitor
+15400*0.03
+yay -S kalker 
+yay -S kalker-bin 
+kalker
+yay -S torbrowser-launcher 
+ls
+ls -a 
+ls -a | where size > 10Kb
+ping google.com
+upower -i $battery_path | grep -E "(model|energy-full|energy-full-design|capacity)"
+let battery_path = (upower -e | grep battery)
+upower -i $battery_path | grep -E "(model|energy-full|energy-full-design|capacity)"
+nvim
+ls
+cd cpp
+ls
+cd BadButBetterRayTraiser/
+ls
+cd build
+ls
+cd ../
+ls
+rebuild 
+ls
+cd build
+ls
+./BetterButBadRaytraiser
+cd ../
+kalker 
+ping google.com
+nvim
+cd build/
+./BetterButBadRaytraiser
+cd ../
+build
+cd cpp/BadButBetterRayTraiser/
+cd build
+./BetterButBadRaytraiser
+make
+./BetterButBadRaytraiser
+git status
+git branches
+git branche
+git branch
+./BetterButBadRaytraiser
+make
+./BetterButBadRaytraiser
+nvim
+cd ../test/
+nvim
+cmatrix
+cmatrix
+ls
+zsh
+ls
+ls -a | where size > 10Kb
+ls -a | where size > 10Kb | reversed
+ls -a | where size > 10Kb | reverse
+cd cpp
+nvim
+yay -S networkmanager 
+sudo systemctl enable --now NetworkManager
+ping google.com
+sudo systemctl stop iwd
+cd /etc/NetworkManager/system-connections/
+sudo cd /etc/NetworkManager/system-connections/
+uuidgen
+nmtui
+nmcli d wifi list
+sudo nvim /etc/NetworkManager/system-connections/My_university.nmconnection
+sudo chmod 600 /etc/NetworkManager/system-connections/My_university.nmconnection
+sudo systemctl restart NetworkManager
+nmtui
+iwctl
+nmtui
+sudo systemctl stop NetworkManager
+sudo systemctl enable --now ird
+sudo systemctl enable --now iwd
+iwctl
+exit
+iwctl
+ping google.com
+yay -S mc
+mc
+yay -S fasm
+fasm
+mc
+iwctl
+ls
+touch asm
+cd asm
+rm asm
+mkdir asm
+cd asm
+touch test.s
+nvim test.s
+ls
+asm
+as -o test.o test
+as -o test.o test.s
+nvim test.s
+as -o test.o test.s
+nvim test.s
+as -o test.o test.s
+nvim test.s
+as --64 -o test.o test.s
+ls
+gcc test.c
+gcc test.s
+nvim test.s
+as --64 -o test.o test.s
+ld -m elf_x86_64 -o test test.o
+ls
+./test
+monk-minal
+monk-n-minal
+sudo systemctl stop iwd
+sudo systemctl enable --now NetworkManager
+nmtui
+ls -a
+nmcli device wifi list
+nmcli device status
+nmcli device disconnect bmstu_wifi
+nmcli device disconnect bmstu_guest
+nmcli device wifi disconnect bmstu_guest
+nmcli device wifi connect bmstu_wifi password lEnin1917 username kai24u913
+nmcli --help
+nmcli device --help
+nmcli device wifi connect bmstu_wifi username kai24u913 password lEnin1917
+nmtui 
+fish
+cd /etc/NetworkManager
+ls
+sudo nvim
+ls
+nvim NetworkManager.conf 
+nmcli
+nmcli con add type wifi con-name "Corporate_wifi" ifname wlan0 ssid "bmtu_wifi" ifname wlan0 wifi-sec.key-mgmt wpa-eap 802-1x.eap peap 802-1x.phase2-auth mschapv2 802-1x.identity "kai24u913" 802-1x.password "lEnin1917"
+ping google.com
+nmcli con up "Corporate_wifi"
+journalctl -xe NM_CONNECTION=808b9804-a65a-4f7d-8a4b-092f46565949 + NM_DEVICE=wlan0
+ls
+cd system-connections/
+ls
+sudo cd system-connections/
+sudo -s system-connections/
+sudo nvim /etc/NetworkManager/system-connections/uni.nmconnection
+sudo chmod 600 /etc/NetworkManager/system-connections/uni.nmconnection
+ls system-connections/
+ls -a
+ls /var/lib/iwd/
+ping google.com
+ni
+ls
+sudo systemctl stop iwd
+sudo systemctl start --now NetworkManager
+nmtui 
+cd ~/.config/hypr
+yay -S wev
+wev
+wav
+wev
+ls
+cd
+ls
+cd images/
+ls
+mkdir screens
+nvim
+yay -S asm-lsp
+sudo systemctl stop NetworkManager
+sudo systemctl start --now iwd
+iwctl
+ping google.com
+r
+ping google.com
+notify "send message"
+send-notify "send message"
+notify-send "asd"
+notify-send "Сообщение/уведомление"
+ls
+cd asm
+cd /
+tree
+ls
+cd ~
+echo hello these are diff lines
+echo hello these are diff lines | describe
+echo hello these are diff lines | where string = are
+echo hello these are diff lines | where = are
+nvim
+ls
+cd ~
+ls
+ls -a | sort-by size | reverse
+с
+сдуфк
+c
+yay -S nsnake pacman4console greed moon-buggy 
+nsnake 
+nsnake
+pacman4console 
+greed
+yay -S 2048-cli-git 
+2048 
+2048-cli
+2048-cli-git
+ping google.com
+ip a
+yay -S zapret
+sudo nvim /etc/zapret/config
+echo -e "youtube.com\nwww.youtube.com\nyoutu.be" | sudo tee /etc/zapret/domains.txt
+sudo nvim /etc/zapret/config
+sudo systemctl enable zapret<\n>sudo systemctl start zapret
+systemctl status zapret
+sudo zapret-update
+sudo nvim /etc/zapret/config
+sudo systemctl enable zapret<\n>sudo systemctl start zapret
+sudo systemctl stop zapret.service 
+sudo systemctl start --now zapret
+yay -S cloudflare-warp-bin<\n>warp-cli connect
+sud systemctl enable warp
+sudo systemctl enable warp
+sudo systemctl enable warp-cli
+sudo systemctl enable cloudfare
+sudo systemctl enable cloudflare
+sudo systemctl enable cloudflare-warp
+sudo systemctl stop zapret
+sudo zapret-update
+systemctl status zapret
+sudo systemctl stop zapret.service 
+systemctl status zapret
+2048-cli-git
+2048 
+2048-tui 
+# Пробуем посмотреть модель дисплея через EDID<\n>sudo pacman -S edid-decode  # Установите утилиту, если её нет<\n>sudo cat /sys/class/drm/card0-eDP-1/edid | edid-decode | grep -i "product\|manufacturer\|serial"
+yay -S edid-decode
+sudo cat /sys/class/drm/card0-eDP-1/edid | edid-decode | grep -i "product\|manufacturer\|serial"
+sudo cat /sys/class/drm/card1-DP-1/edid 
+sudo cat /sys/class/drm/card1-DP-1/edid | edid-decode
+sudo cat /sys/class/drm/card1-eDP-1/edid | edid-decode | grep -i "product\|manufacturer\|serial"
+sudo cat /sys/class/drm/card1-DP-1/edid | edid-decode | grep -i "product\|manufacturer\|serial"
+sudo cat /sys/class/drm/card1-DP-1/device/card1-DP-1/
+sudo cat /sys/class/drm/card1-DP-1/device/card1-DP-1/connector_id 
+cd ~/.config/cava
+nvim
+cd ../waybar/
+nvim
+killall waybar
+exit
+cd ~/.config/waybar.back/
+nvim
+waybar
+data
+date
+time
+date
+date time
+date now
+cmatrix -C '#7e9cd8' -c '#c8745f'  # Water Blue + Peach Red
+cmatrix -C '#7e9cd8'
+cmatrix --help
+cmatrix -B
+cmatrix 
+cmatrix -l
+cmatrix -r
+cmatrix -m
+cmatrix -s
+cmatrix -c
+cmatrix -a
+cmatrix -B
+cmatrix o
+cmatrix -o
+cmatrix -h
+cmatrix -C #123123
+cmatrix
+cmatrix -C red
+cmatrix -C cyan
+cmatrix
+which cmatrix
+which cmatrix | path | cd
+which cmatrix | which path | cd
+which cmatrix | where path | cd
+which cmatrix
+which cmatrix | get path 
+which cmatrix | get path | cd
+ls
+sudo which cmatrx | get path 
+which cmatrix | get path 
+sudo which cmatrix | get path | cd
+c
+fish
+cd $(which cmatrix)
+cd $(where cmatrix)
+cd (which cmatrix)
+cd (which cmatrix | get path)
+cd (which cmatrix | get path | first)
+sudo cd (which cmatrix | get path | first)
+cd /usr/sbin/cmatrix
+sudo nvim /usr/sbin/cmatrix
+yay -S fzf
+ping google.com
+yay -S fzf
+sudo pacman -S fzf
+yay -S cmatrix
+cmatrix
+yay -S fzf
+fzf
+fzf --help
+fzf -e 
+cd ~/.config/hypr
+nvim
+cd ~/.config/wofi/
+nvim
+cd ~/.config/hypr
+nvim
+hyprshot --help
+cd ~/.config/nvim
+cd ~/.config/hypr
+nvim
+cd ~/.config/hypr
+nvim
+clear
+clockdiff 
+cmatrix
+peaclock 
+ls
+fastfetch
+clear
+fastfetch
+c
+fastfetch
+nvim
+cd ~/.config/nvim
+nvim
+cd ../hypr
+nvim
+cd ../waybar
+cd ../
+cd waybar
+cd ~/.config/hypr
+nvim
+cd ../yazi
+yazi
+nvim
+cd ../waybar/
+nvim
+kilall waybar
+killall waybar
+waybar --help
+waybar -c ../waybarr.back/config.jsonc
+waybar -c ~/dot-files/waybar/
+waybar -c ~/dot-files/waybar/config.jsonc
+nvim
+cd ~/.config/hyptr
+cd ~/.config/hypr
+nvim
+cp ~/downloads/style.css ~/.config/wofi
+wofi --help
+wofi -c ~/.config/wofi.back/ -s ~/.config/wofi.back/style.css
+yay -S rofi
+rofi 
+rofi -show drun
+nvim ~/.config/hypr/hyprland.conf 
+fzf
+fzf -e
+fzf -e | nvim
+fzf -e
+ls
+asldasd
+cd ~/.config/kitty
+ls
+cd ~/.config/nvim
+ls
+asdasd
+ls
+cd ~/.config/nvim
+ls
+ls -a | get type | first
+nvim
+nvim .config/starship.toml 
+ls
+clear
+ls
+ls -a
+ls
+cd ~/.config/nvim
+;s
+cd ~/.config/yazi
+nvim
+cd ~/.config/hypr
+yazi
+chmod +x ~/.config/hypr/scripts/wallpaper-switch.sh
+sudo chmod +x ~/.config/hypr/scripts/wallpaper-switcher.sh
+chmod +x ~/.config/hypr/scripts/wallpaper-switcher.sh
+nvim
+hyprctl hyprpaper wallpaper ", ~/images/wallpapers/b-500.jpg"
+hyprctl hyprpaper preload ", ~/images/wallpapers/b-500.jpg"
+hyprctl hyprpaper preload "~/images/wallpapers/b-500.jpg"
+hyprctl hyprpaper preload ", ~/images/wallpapers/b-500.jpg"
+hyprctl hyprpaper wallpaper ", ~/images/wallpapers/b-500.jpg"
+hyprctl hyprpaper preload ", ~/images/wallpapers/b-551.jpg"
+hyprctl hyprpaper wallpaper ", ~/images/wallpapers/b-551.jpg"
+hyprctl hyprpaper preload "~/images/wallpapers/b-551.jpg"
+hyprctl hyprpaper wallpaper ", ~/images/wallpapers/b-551.jpg"
+hyprctl hyprpaper preload "~/images/wallpapers/b-213.jpg"
+hyprctl hyprpaper wallpaper ", ~/images/wallpapers/b-213.jpg"
+hyprctl hyprpaper preload "~/images/wallpapers/b-513.jpg"
+hyprctl hyprpaper wallpaper ", ~/images/wallpapers/b-513.jpg"
+ls
+c
+ы
+s
+cd ~/.config/hypr
+btop
+yazi --help
+yazi
+nvim
+cd
+ls
+cd bmstu
+ls
+cd asm
+ls
+yazi
+path
+echo (PATH)
+$PATH
+$env.PATH
+where qownnotes
+which qownnotes
+yazi
+QOwnNotes ~/notes/TODO.md
+which QOwnNotes 
+yazi
+ls
+which QOwnNotes 
+which QOwnNotes | get path | first
+kitty QOwnNotes ~/notes/TODO.md
+yazi
+kitty QOwnNotes ~/not.md
+sudo ln -s /usr/sbin/QOwnNotes /usr/bin/qownnotes
+nvim ~/.config/yazi/plugins/open.toml 
+yazi
+kitty qownnotes ~/not.md
+yazi
+cd ~/.config/yazi
+vim
+tree
+rm -rf ~/.local/share/yazi/cache
+yazi
+yazi --help
+man yazi
+fish
+cp ~/.config/yazi ~/.config/yazi-alt
+cp -r ~/.config/yazi ~/.config/yazi-alt
+env "YAZI_CONFIG_HOME=~/.config/yazi-alt" yazi
+qownnotes ~/notes/bmstu/asm.md
+nvim
+;s
+yandex-music --help
+ls
+cd asm
+mkdir system_programming
+cd system_programming/
+ls
+echo "# System_programming" >> README.md<\n>git init<\n>git add README.md<\n>git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:zeusf1re/System_programming.git<\n>git push -u origin main
+touch README.md
+echo "# System_programming" >> README.md<\n>git init<\n>git add README.md<\n>git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:zeusf1re/System_programming.git<\n>git push -u origin main
+git status
+ls
+yay -S gdb
+sudo pacman -S lib32-glibc
+touch kanaev.asm
+fasm ivanoв.asm ivanoв    # компилируем<\n>chmod +x ivanoв           # делаем исполняемым<\n>./ivanoв                  # запускаем
+fasm kanaev.asm kanaev
+ls
+./kanaev
+gcc -m32 kanaev.c 
+ls
+./a.out
+# Для ASM версии<\n>gdb -batch -ex "file ivanoв" -ex "disassemble main" > Disassemble<\n><\n># Для C версии<\n>gdb -batch -ex "file C_version" -ex "disassemble main" >> Disassemble
+cd ~/asm/system_programming/
+ls
+gdb -batch -ex "file kanaev" -ex "disassmble main" > Disassemble
+touch Disassemble
+gdb -batch -ex "file kanaev" -ex "disassmble main" > Disassemble
+nvim
+ls
+git status
+git statis
+git status
+gdb -batch -ex "file kanaev" -ex "disassemble _start" > Disassemble
+ls
+./kanaev
+gdb -batch -ex "file kanaev" -ex "disassemble _start" > Disassemble
+gdb -batch -ex file kanaev -ex disassemble _start > Disassemble
+gdb -batch -ex "file kanaev" -ex "disassemble _start" > Disassemble
+nm kanaev
+objdump -t kanaev
+readelf -h kanaev | grep Entry
+gdb -batch -ex "file kanaev" -ex "disassemble 0x8048074" > Disassemble
+readelf -h kanaev | grep Entry
+gdb -batch -ex "file kanaev" -ex "disassemble 0x8048074" > Disassemble
+ system_programming  on 🌱 main [!?] <\n>❯ readelf -h kanaev | grep Entry<\n>  Entry point address:               0x8048074<\n><\n> system_programming  on 🌱 main [!?] <\n>❯ gdb -batch -ex "file kanaev" -ex "disassemble 0x8048074" > Disassemble<\n>>: No such file or directory.<\n>"/home/user/asm/system_programming/Disassemble" is not a core dump: file format not recognized<\n>No function contains specified address.
+objdump -d -M intel kanaev > Disassemble
+yay -S objdump
+objdump 
+objdump -d -M intel kanaev > Disassemble
+ls
+objdump -d -M intel kanaev > Disassemble
+objdump -d -M intel kanaev
+echo objdump -d -M intel kanaev
+echo (objdump -d -M intel kanaev)
+objdump -d -M intel kanaev >> Disassemble 
+cho "=== KANAEV DISASSEMBLY ===" > Disassemble<\n><\n># Затем добавляем дизассемблирование (ОБРАТИ ВНИМАНИЕ на ПРОБЕЛЫ!)<\n>objdump -d -M intel kanaev >> Disassemble
+echo "=== KANAEV DISASSEMBLY ===" > Disassemble<\n><\n># Затем добавляем дизассемблирование (ОБРАТИ ВНИМАНИЕ на ПРОБЕЛЫ!)<\n>objdump -d -M intel kanaev >> Disassemble
+r2 -AA kanaev
+yay -S r2
+file kanaev 
+yay -S radare2 
+r2 -AA kanaev
+r2 --help
+man r2
+r2 -M kanaev
+r2 -AA kanaev
+gdb kanaev
+c
+fasm kanaev.asm kanaev
+ls
+./kanaev
+readelf -h kanaev | grep Entry
+let size = (stat -c%s kanaev)
+echo size
+echo (size)
+gdb -batch -ex "file kanaev" -ex "disassemble 0x400080, 0x400080+$size" > Disassemble
+gdb kanaev
+gdb --text-user-interface
+man gdb
+gdb --tui
+gdb --tui kanaev
+main
+main gdb
+man dgb
+man gdb
+dgb --tui -q kanaev
+fzf
+fzf -e
+man gdb
+cd ~/asm/system_programming/
+dgb --tui -q kanaev
+gdb --tui -q kanaev
+gdb -q kanaev
+dgb -q
+gdb -q kanaev
+nvim ~/.gdbinit
+ls
+gdb a.out 
+qdb -q
+gdb -q a.out 
+fasm kanaev.asm a
+ls
+./a
+gcc -m32 kanaev.c c
+gcc -m32 -o kanaev.c c
+gcc -m32 kanaev.c -o c
+gcc -m32 kanaev.c
+ks
+ls
+nvim
+ды
+ls
+gcc -m32 kanaev.c
+ls
+rm a.out
+ls
+gcc -m32 kanaev.c -o c
+ls
+./c
+./a
+gdb -q a
+dgb -q c
+gdb -q c
+cd ~/asm/system_programming/
+ls
+mkdir Work
+cd Work
+mkdir Lab1 ФИО
+ls
+cd ../
+ls
+mkdir sandbox
+ls
+mv * sandbox/
+;s
+ls
+cd ~/asm/system_programming/
+ls
+cd sandbox/
+ls
+cd ../
+ls
+mv sandbox/Work/ Work/
+touch WorkFiles
+ls
+nvim WorkFiles 
+cd ~/asm/system_programming/
+cp ~/WorkFiles .
+ls
+cd Work
+ls
+chmod u=rwx,g=rwx,o=w Lab1/
+chmod u=w, go= ФИО/
+ls
+cd Work/
+ls
+chmod u=w, go= ФИО/
+chmod u=-w-, go= ФИО/
+chmod u=w,go= ФИО/
+ls
+lsd -ld
+lsd -ld .
+ls
+lsd -ld *
+asdasd
+ls
+cd Work/
+ls
+touch "Text @1" "Text $2" "Text #3"
+echo "Птица говорун отличается умом и сообразительностью!\n" > `Text @1`
+cat "Text @1" 
+echo "Птица говорун отличается умом и сообразительностью!\n" >> `Text @1`
+(echo "Птица говорун отличается умом и сообразительностью!\n") >> `Text @1`
+"asd" >> `Text @1`
+"asd" > `Text @1`
+echo asd > `Text @1`
+(echo asd) > `Text @1`
+echo "Птица говорун отличается умом и сообразительностью!\nОтличается умом, отличается сообразительностью..." > "Text @1"
+ls
+echo "Птица говорун отличается умом и сообразительностью!\nОтличается умом, отличается сообразительностью..." > "Text @1"
+echo "Птица говорун отличается умом и сообразительностью!" | save "Text @1"
+echo "Птица говорун отличается умом и сообразительностью!" | save --append "Text @1"
+echo "\nОтличается умом, отличается сообразительностью..." | save --append "Text @1"
+ls
+cat "Text @1" 
+cat "Text @1" | save --append `Text $2`
+cat "Text $2" 
+ls
+mv `Text $2` Lab1/
+ls Lab1/
+cd Lab1/
+ls
+cd ../
+ls
+cp `Text @1` ФИО/
+sudo cp "Text @1" ФИО/
+ls
+∙ gzip "Text @1" && gzip "Text #3" && tar -cf MyAchiv.tar "Text @1.gz" "Text #3.gz"
+∙ gzip "Text @1"; gzip "Text #3" && tar -cf MyAchiv.tar "Text @1.gz" "Text #3.gz"
+∙ gzip "Text @1"; gzip "Text #3"; tar -cf MyAchiv.tar "Text @1.gz" "Text #3.gz"
+gzip "Text @1"; gzip "Text #3"; tar -cf MyAchiv.tar "Text @1.gz" "Text #3.gz"
+ls
+open `Text #3.gz`
+gzip -d "Text #3.gz" "Text @1.gz" 
+ls
+open `Text #3`
+open `Text @1`
+openal-info `Text @1`
+open `Text @1`
+let first_line = (open "Text @1" | lines | first)
+first_line
+echo (first_line)
+echo first_line
+echo $first_line
+let first_line = (open "Text @1" | lines | first)
+save -append `Text #3` $first_ne
+save -append `Text #3` $first_line
+save --append `Text #3` $first_line
+history
+history | where command has save
+let first_line = (open "Text @1" | lines | first)
+echo $first_line | save --append `Text #3`; echo "Будь осторожен! Преступник вооружен!" | save --append `Text #3`
+cat "Text #3" 
+echo $first_line | save --append `Text #3`; echo "Будь осторожен! Преступник вооружен!" | save --append `Text #3`
+echo $first_line | save --append `Text #3`; echo "\nБудь осторожен! Преступник вооружен!" | save --append `Text #3`
+ls
+cd ФИО/
+sudo cd ФИО
+sudo cd -s ФИО/
+ls
+touch ФИО/Result_one
+ls -ld
+lsd -ld *
+# Создаем файл напрямую без захода в папку<\n>open "Text @1" | lines | reverse | str join (char nl) | save "ФИО/Result_one"
+tac
+tac "Text #3" 
+cat "Text #3" 
+touch test.txt
+cat asdasdas | save test.txt
+cat asdasdas | save -f test.txt
+echo asdasdas | save -f test.txt
+cat test.txt 
+tac test.txt 
+ls
+ls ФИО/
+sudo ls ФИО/
+sudo cat ФИО/`Text @1`
+c
+fish
+fish
+fish
+nvim
+ls
+cd Work/
+ls
+sudo open "ФИО/Text @1" | lines | reverse | str join (char nl) | save "Result_one"
+sudo cat "ФИО/Text @1" | lines | reverse | str join (char nl) | save "Result_one"
+sudo cat "ФИО/Text @1" | lines | reverse | str join (char nl) | save -f "Result_one"
+sudo mv ФИО/Result_one ФИО/Result_two
+sudo ls
+sudo lsd
+sudo ls ФИО
+ls
+sudo cat "ФИО/Text @1" | lines | reverse | str join (char nl) | save -f ФИО/Result_one
+sudo cat "ФИО/Text @1" | lines | reverse | str join (char nl) | save ФИО/Result_one
+cat Result_one 
+ls
+sudo cat "ФИО/Text @1" | str reverse
+sudo cat "ФИО/Text @1" | str reverse | save Result_one
+sudo rm ФИО/Result_one
+sudo cat "ФИО/Text @1" | str reverse | save ФИО/Result_one
+sudo cat "ФИО/Text @1" | str reverse | sudo save ФИО/Result_one
+sudo cat "ФИО/Text @1" | str reverse | save ФИО/Result_one
+chmod 777 ФИО
+cat "ФИО/Text @1" | str reverse | save ФИО/Result_one
+ls
+cd ФИО
+ls
+cat "Text @1" 
+cat Result_one 
+cd ../
+mv ФИО/Result_one ФИО/Result_two
+ls
+ls ФИО
+sudo chmod 200 ФИО/
+ды
+ls -ld
+cd ..
+ls
+cd sandbox/
+ls
+fasm kanaev.asm a
+./a
+history | where command has fasm
+fasm kanaev.asm a; chmod +x a
+./a
+ls
+history | where command has fasm
+fasm kanaev.asm a
+ls
+cd sandbox/
+ls
+fasm -elfi32 kanaev.asm a
+ls
+fasm kanaev.asm
+ld -m -elf_i386 kanaev.o
+ld -m elf_i386 kanaev.o
+ls
+ld -m elf_i386 kanaev.o -o a
+ls
+rm a.out
+rm kanaev.o
+ls
+gdb -q a
+history
+history | where command has ld
+cd
+cd asm/system_programming/
+ls
+cd sandbox/
+ls
+ls -a
+history | where command has ld
+history | where command has chmod
+ls
+cd ..
+ls
+cd Work/
+ls
+chmod 777 ФИО
+history | where command has save
+wofi --dry run
+ls
+cd ../sandbox/
+ls
+fasm -elfi32 kanaev.asm a
+fasm -m elf_386i kanaev.asm a
+fasm --help
+fasm kanaev.asm a
+ls
+./a
+chmod +x a
+./a
+ls
+chmod +x a
+./a
+a
+ls
+rm a
+ls
+fasm kanaev.asm
+ls
+ld -m elf_i386 kanaev.o -o a
+ls
+./a
+fasm kanaev.asm
+ld -m elf_i386 kanaev.o -o a
+./a
+2048-tui 
+history | where command has snake
+nvim
+yazi
+ls
+cd sandbox
+ls
+fasm kanaev.asm
+ld -m elf_i386 kanaev.o -o a
+ls
+./a
+fasm3 kanaev.asm
+ls
+cd sandbox/
+fasm3 kanaev.asm
+ls
+./a
+nvim
+ls
+cd sandbox/
+ls
+rm kanaev.asm~ kanaev.asy~ kanaev.asz~ kanaev.o
+ls
+cat Disassemble 
+ls
+fasm3 kanaev.asm
+ls
+fasm3 kanaev.asm
+ls
+cd sandbox/
+ls
+ls -a
+cd ..
+ls
+ls -a
+rm -rf .clang-format .clang-tidy
+ls
+cd sandbox/
+ls
+ls -a
+./a
+rm a
+ls
+ls -a
+fasm3 kanaev.asm
+ls
+./kanaev
+ls
+cd sandbox/
+ls
+cd sandbox/
+ls
+fasm3 kanaev.asm
+ls
+./a
+tree
+nvim
+nvim ~/.config/nushell/config.nu 
+ls
+cd Work
+ls
+cd Lab1
+ls
+cd ..
+ls
+cd Lab1
+tree
+cd ..
+ls
+tree
+;s
+cd ~/asm/system_programming/
+ls
+cd Work/
+ls
+cd Lab1/
+ls
+ls -a ../ФИО/ | where name starts-with "T" 
+ls -a ../ФИО/ | where name starts-with "Т" 
+ls -a ../ФИО/ | where name starts-with 
+ls -a ../ФИО/ 
+ls -a ../ФИО/ | where name starts-with 'T'
+ls -a ../ФИО/ | where name has T
+ls -a ../ФИО/ | where name starts-with T
+ls -a ../ФИО/ | where name starts-with T*
+ls -a ../ФИО/ | where name starts-with "T*"
+ls -a ../ФИО/ | where name starts-with 
+ls -a ../ФИО/ | where name starts-with 'Text'
+ls -a ../ФИО/ | where name starts-with '`T`'
+ls -a ../ФИО/ 
+ls -a ../ФИО/ | where name starts-with 'R'
+ls -a ../ФИО/ | where name starts-with '../ФИО/T'
+ls -a ../ФИО/ | where name starts-with '../ФИО/T' | open | save Result_3
+ls -a ../ФИО/ | where name starts-with '../ФИО/T' | cat | save Result_3
+ls -a ../ФИО/ | where name starts-with '../ФИО/T' | open | save Result_3
+ls -a ../ФИО/ | where name starts-with '../ФИО/T' | get name | first | open | save Result3
+ls
+uname
+uname -a
+uname --help
+uname
+system 
+fish
+uname
+$"(open Result3)\n$(uname -a)\n$(date)" | save Result3
+$"(open Result3)\n$(uname)\n$(date)" | save Result3
+$"(open Result3)\n$(uname)\n$(date)" | save -f Result3
+$"(open Result3)\n(uname)\n(date)" | save -f Result3
+date
+date now
+$"(open Result3)\n(uname)\n(date now)" | save -f Result3
+ls
+cd
+ls
+cd asm
+ls
+cd system_programming/
+ls
+cd Work
+ls
+ls -a
+ls
+ls | where size >= 1kB
+ls | where size >= 1kB | reversed
+ls | where size >= 1kB | reverse
+ls | where size >= 1kB | sort-by size
+ls
+cd ../sandbox/
+ls
+fasm3 kanaev.asm
+./a
+fasm3 kanaev.asm
+nvim
+cd ../sandbox/
+cd sandbox
+ls
+fasm3 kanaev.asm
+ls
+./a
+fasm3 kanaev.asm
+./a
+fasm3 kanaev.asm
+./a
+fasm3 kanaev.asm
+./a
+fasm3 kanaev.asm
+./a
+fasm3 kanaev.asm
+./a
+fasm3 kanaev.asm
+./a
+fasm3 kanaev.asm
+./a
+fasm3 kanaev.asm
+./a
+dgb -q a
+gdb -q a
+gcc -m32 kanaev.c -o c
+./c
+dgb -q c
+gdb -q c
+yazi
+ls
+cd asm
+ls
+git clone git@github.com:zeusf1re/System_programming.git
+ls
+cd System_programming/
+ls
+nvim
+git status
+nvim
+git add .
+git commit -m "Lab_1"
+git push
+2048-tui 
+nsnake
+cd ~/.config/nu
+cd asm/System_programming/
+nvim
+cd ~/.config/nu
+cd ~/.config/nushell/
+nvim
+cd asm/System_programming/
+ping ya.ru
+ls
+cd Lab_2/
+ls
+fasm3 kanaev.asm
+fasm3 1.asm
+nvim
+ls
+cd 
+ls
+cd notes
+ls
+cd bmstu
+cd ../
+nvim
+cd ~/.config/nvim
+nvim
+ls
+cd notes/
+nvim
+yay -S glow
+glow --help
+glow bmstu/Ecology.md
+nvim
+nvim
+cd notes/
+ls
+cd bmstu/
+nvim
+npm install -g markdown-preview
+nvim
+nvim
+ls
+clear
+ls
+clear
+ls
+nvim
+cd ~/asm/system_programming/
+cd ~/asm/ls
+cd ~/asm
+ls
+fasm3 test.asm
+ping ya.ru
+cd ~/.config/nvim
+nvim
+nvim
+ls
+fasm3 Display32.asm
+./a
+cd notes/
+ls
+fasm3 test.asm
+cat test.asm 
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+ping ya.ru
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 Display32.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+nvim
+cd ~/.config/nvim
+nvim
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+systemctl status iwd
+systemctl stop iwwd
+systemctl stop iwd
+sudo systemctl stop iwd
+systemctl status iwd
+iwctl
+sudo systemctl start --now NetworkManager
+NetworkManager 
+history | where command has net
+history | where command has Net
+history | where command has tui
+nmtui
+ping ya.ru
+sudo systemctl stop NetworkManager
+sudo pacman -R NetworkManager
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+gdb -q ./a
+gdb -q a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+nvim
+ls
+fasm3 test.asm
+./a
+ривет как дела
+./a
+риветкакдела
+./a
+cd ~/.config/nvim && nvim
+cd ~/.config/nvim; nvim
+nvim
+s
+yay -S postgresql
+postgresql
+which postgresql
+where postgresql
+psql
+which psql
+ping ya.ru
+nmtui
+s
+ls
+fasm3 test.asm
+./a
+hteeh
+echo $&
+echo $?
+echo $
+echo &?
+echo --help
+echo
+echo hello
+./a
+ls hjkh
+./a
+ls
+clear
+ping ya.ru
+nmtui
+./a
+nmtui
+ping ya.ru
+nmtui
+./a
+ping ya.ru
+2048-tui 
+nsnake
+matrix
+cmatrix
+cmatrix -r
+2048-tui 
+yazi
+s
+ls
+cd asdm
+cd asm
+ls
+ping ya.ru
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+ls
+fasm3 kanaev.asm
+./a
+gdb -q a
+ls
+cd asm
+ls
+cd ..
+ls
+git status
+git add .
+git commit -m "Lab_1 fixed"
+git push
+ls
+cd Lab_1/
+ls
+cd sandbox/
+ls
+history
+$first_line
+history | where command has first_line
+uname
+bash
+basj
+bash
+exit
+exit
+nvim
+nmtui
+ping ya.ru
+ls
+./a
+ls
+cd System_programming/
+ls
+cd Lab_2/
+ls
+fasm3 test.asm
+./a
+clear
+nmtui
+./a
+ls
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+nmtui
+yazi
+bluetoothctl
+cd ~/.config/nushell/; nvim
+cd asm
+ls
+cd System_programming/
+ls
+cd Lab_2/
+nvim
+cd
+cd asm
+cd System_programming/
+ls
+nvim
+nvim
+ls
+ls -a
+fasm3 test2.asm
+./a
+fasm3 test2.asm
+./a
+fasm3 test2.asm
+fastfetch
+fasm3 test2.asm
+./a
+fasm3 test2.asm
+./a
+cd asm/System_programming/Lab_2/
+ls
+nvim
+ls
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+nvim
+ls
+nmyui
+nmtui
+gdb -q a
+ls
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm test.asm test
+dbb ./test
+gdb ./test
+ls
+./test
+chmod +x test
+ls
+./test
+nvim
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+c
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+cd asm/System_programming/Lab_2/
+./a
+fasm3 test.asm
+./a
+fasm3 test.asm
+./a
+clear
+ls
+./a
+echo "Всем спасибо за внимание!"
+git status
+cd ..
+ls
+git status
+git add .
+git commit -m "lab2 +asm(only)"
+git push
+s
+cd asm/System_programming/Lab_2/
+ls
+./a
+clear
+nvim
+cd asm/System_programming/
+ls
+mkdir Lab_3
+cd Lab_3
+cd
+ls
+ls -la
+cd videos
+ls
+ls -la
+cd obs
+ls
+echo (ls | size | sum)
+ls -ld
+fish
+cd ..
+cd
+ls
+cd asm
+ls
+cd System_programming/
+ls
+cd Lab_3/
+ls
+nvim
+ls
+ls -a
+ls -la
+ls
+fasm3 firstTask.asm
+./a
+fasm3 firstTask.asm
+./a
+./a a
+./a a a a
+fasm3 firstTask.asm
+./a a a a
+fasm3 firstTask.asm
+./a a a
+fasm3 firstTask.asm
+./a a a
+./a
+fasm3 firstTask.asm
+./a a
+fasm3 firstTask.asm
+./a a
+./a
+fasm3 firstTask.asm
+./a
+./a a
+fasm3 firstTask.asm
+./a
+./a a
+./a g
+./a f f
+fasm3 firstTask.asm
+./a a
+fasm3 firstTask.asm
+./a a
+fasm3 firstTask.asm
+./a a
+fasm3 firstTask.asm
+./a a
+fasm3 firstTask.asm
+./a a
+fasm3 firstTask.asm
+./a a
+fasm3 firstTask.asm
+./a a
+./a
+./a b
+./a f
+fasm3 firstTask.asm
+./ a
+./a a
+./a b
+fasm3 firstTask.asm
+./a a
+./a b
+./a c
+./a e
+fasm3 firstTask.asm
+./a a
+./a b
+./a '\n'
+./a а
+./a я
+./a a
+./a z
+nvim
+cd ..
+ls
+cd Lab_2/
+ды
+ls
+./a
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqa
+./a
+nmtui
+cmatrix
+nvim
+ls
+cd
+echo $?
+echo ?$
+echo $env.SHELL
+cd ~/.config/waybar/
+nvim
+cd ~/.config/nvim && nvim
+cd ~/.config/nvim
+cd asm
+ls
+cd System_programming/Lab_3/
+nvim
+nvim
+cd documents/
+ls
+cd asoiu/
+ls
+unzip ASOIU.zip 
+ls
+cd ASOIU/
+ls
+cd 
+;s
+ls
+/.a
+./a
+ping ya.ru
+2048-tui 
+s
+r
+hyprctl
+hyprctl monitors 
+ls
+cd ~/.config/hypr
+nvim
+exit
+ls
+hyperctl monitor
+cd ~/.config/hypr
+nvim
+r
+nvim
+cd ~/.config/nvim; nvim
+nvim
+ls
+cd dot-files/
+ls
+git status
+cp -r ~/.config/yazi .
+ls
+rm -rf waybar
+ls
+rm -rf yazi
+ls
+rm -rf nvim
+rm -rf hypr
+rm -rf nushell
+ls
+git status
+sudo cp -r ~/.config/waybar .
+ls
+sudo cp -r ~/.config/hypr .

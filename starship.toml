@@ -1,10 +1,14 @@
 # Minimal Kanagawa theme
 format = """
-$username@$hostname $directory $git_branch$git_status
+ $directory $git_branch$git_status
 $character"""
 
+# format = """
+# $username@$hostname $directory $git_branch$git_status
+# $character"""
+
 [character]
-success_symbol = "[❯](fg:#98BB6C)"
+success_symbol = "[❯](fg:#957FB8)"
 error_symbol = "[❯](fg:#C34043)"
 
 [username]

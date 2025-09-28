@@ -1,17 +1,16 @@
 { 
-
   "position": "top",
   "exlusive": "true",
   "passthrough": "true",
   "gtk-layer-shell": "true",
-  "margin-top": 10,
-  "margin-left": 10,
-  "margin-right": 10,
-  "height": 41,
+  "margin-top": 0,
+  "margin-left": 0,
+  "margin-right": 0,
+  "height": 31,
   "modules-left": [
     "cpu",
     "temperature",
-    "memory",
+    "memory"
   ],
   "modules-center": [
     "hyprland/workspaces"
@@ -216,8 +215,9 @@ ramp-foreground = #a4ebf3
 },
     "network": {
 
-   "on-click": "hyprctl dispatch workspace 10; kitty -e iwctl",
+   "on-click": "hyprctl dispatch workspace 10; kitty -e nmtui",
   "format-wifi": "<span color='#89b4fa'></span>",
+    "format-ethernet": "<span color='#7e9cd8'>󰈀</span>",  // Иконка для Ethernet
   "format-disconnected": "<span color='#f38ba8'>󰖪</span>",
   "interval": 5,
   "tooltip": false,

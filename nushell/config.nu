@@ -16,6 +16,8 @@ alias s = shutdown -h now
 alias r = reboot
 alias bt-hyprx = bluetoothctl connect 00:42:79:67:FA:CF
 alias bt-d-hyprx = bluetoothctl disconnect 00:42:79:67:FA:CF
+alias bt-jbl = bluetoothctl connect 7C_96_D2_26_59_85
+alias bt-d-jbl = bluetoothctl disconnect 7C_96_D2_26_59_85
 alias em = emacsclient -c -a ""
 alias emt = emacsclient -nw -a ""
 alias kill-emacs = emacsclient -e "(kill-emacs)"
@@ -117,4 +119,42 @@ $env.config.cursor_shape = {
     vi_normal: block
 }
 
-# Включите подсказки
+
+
+
+
+
+
+def fasm3 [file: string] {
+    if not ($file | path exists) {
+        error make {msg: $"Файл не найден: ($file)"}
+    }
+    
+    if not ($file | str ends-with '.asm') {
+        error make {msg: "Файл должен иметь расширение .asm"}
+    }
+    
+    let base_name = ($file | str replace '.asm' '')
+    let object_file = $"($base_name).o"
+    let output_file = "a"
+    
+    try {
+        fasm $file
+    } catch {
+        error make {msg: "Ошибка компиляции FASM"}
+    }
+    
+    try {
+        ld -m elf_i386 $object_file -o $output_file
+    } catch {
+        rm $object_file
+        error make {msg: "Ошибка линковки"}
+    }
+    
+    rm $object_file
+    
+    chmod +x $output_file
+    
+    echo $"✅ Скомпилировано: ($output_file)"
+}
+

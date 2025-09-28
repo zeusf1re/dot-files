@@ -2,6 +2,7 @@ return {
   {
     "nvimdev/dashboard-nvim",
     event = "VimEnter",
+    dependencies = { "nvim-telescope/telescope.nvim" }, -- Добавляем зависимость
     config = function()
       local dashboard = require("dashboard")
       local mayhem_art = {
@@ -16,12 +17,10 @@ return {
         "╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝",
       }
       
-      -- Добавляем пустые строки после арта
       local header_with_spacing = {}
       for _, line in ipairs(mayhem_art) do
         table.insert(header_with_spacing, line)
       end
-      -- Добавляем 2 пустые строки после арта
       table.insert(header_with_spacing, "")
       table.insert(header_with_spacing, "")
       table.insert(header_with_spacing, "")
@@ -40,7 +39,9 @@ return {
               desc_hl = 'String',
               key = 'f',
               key_hl = 'Number',
-              action = 'Telescope find_files'
+              action = function()
+                require("telescope.builtin").find_files()
+              end
             },
             {
               icon = ' ',
@@ -49,7 +50,9 @@ return {
               desc_hl = 'String',
               key = 'e',
               key_hl = 'Number',
-              action = 'Neotree'
+              action = function()
+                vim.cmd("Neotree")
+              end
             },
             {
               icon = ' ',
@@ -58,7 +61,9 @@ return {
               desc_hl = 'String',
               key = 'n',
               key_hl = 'Number',
-              action = 'enew'
+              action = function()
+                vim.cmd("enew")
+              end
             },
             {
               icon = ' ',
@@ -67,7 +72,9 @@ return {
               desc_hl = 'String',
               key = 'c',
               key_hl = 'Number',
-              action = 'e ~/.config/nvim/init.lua'
+              action = function()
+                vim.cmd("e ~/.config/nvim/init.lua")
+              end
             },
             {
               icon = '󰩈 ',
@@ -76,19 +83,19 @@ return {
               desc_hl = 'String',
               key = 'q',
               key_hl = 'Number',
-              action = 'qa'
+              action = function()
+                vim.cmd("qa")
+              end
             },
           },
-          -- Добавляем пустые строки перед футером
-          footer = {"", "", "", "", "", "⚡ Mayhem Mode Activated ⚡"}  -- 2 пустые строки + текст
+          footer = {"", "", "", "", "", "⚡ Mayhem Mode Activated ⚡"}
         }
       })
 
-      -- Настройка цветов в стиле Kanagawa
-      vim.api.nvim_set_hl(0, "DashboardHeader", { fg = "#DCA561" })  -- Оранжевый
-      vim.api.nvim_set_hl(0, "DashboardCenter", { fg = "#7E9CD8" })  -- Синий
-      vim.api.nvim_set_hl(0, "DashboardShortcut", { fg = "#957FB8" }) -- Фиолетовый
-      vim.api.nvim_set_hl(0, "DashboardFooter", { fg = "#6A9589" })   -- Зеленый
+      vim.api.nvim_set_hl(0, "DashboardHeader", { fg = "#DCA561" })
+      vim.api.nvim_set_hl(0, "DashboardCenter", { fg = "#7E9CD8" })
+      vim.api.nvim_set_hl(0, "DashboardShortcut", { fg = "#957FB8" })
+      vim.api.nvim_set_hl(0, "DashboardFooter", { fg = "#6A9589" })
     end,
   }
 }

@@ -1,0 +1,45 @@
+[general]
+framerate = 60
+bars = 0
+
+[input]
+method = pulse
+source = auto
+
+[output]
+method = ncurses
+monstercat = 1
+orientation = vertical
+bar_width = 0.6
+
+[smoothing]
+integral = 77
+monstercat_smoothing = 1
+
+#hyde
+[color]
+gradient = 1
+gradient_color_1 = '#f5e0dc'  # Rosewater (верхние частоты)
+gradient_color_2 = '#cba6f7'  # Mauve (нижние частоты)
+gradient_color_3 = '#89b4fa'  # Blue (средние частоты)
+background = '#1e1e2e'        # Base (фон)
+foreground = '#cdd6f4'        # Text (границы)
+
+#kanagawa (more red)
+[color]
+gradient = 1
+gradient_color_1 = '#e6c384'  # Autumn (янтарный)
+gradient_color_2 = '#c8745f'  # Peach (коралловый)
+gradient_color_3 = '#7e9cd8'  # Water (голубой)
+background = '#1f1f28'        # Sumi Ink
+foreground = '#dcd7ba'        # Fuji White
+
+#kanagawa wave
+[color]
+gradient = 1
+gradient_color_1 = '#dca561'  # Katana (персиковый)
+gradient_color_2 = '#957fb8'  # Crystal (лавандовый)
+gradient_color_3 = '#7eb3c2'  # Wave (бирюзовый)
+background = '#1f1f28'        # Sumi Ink (фон)
+foreground = '#dcd7ba'        # Fuji White (границы)
+

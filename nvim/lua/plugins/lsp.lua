@@ -12,10 +12,11 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "clangd" } -- Только clangd для C++
+        ensure_installed = { "clangd", "marksman" } -- Только clangd для C++
       })
     end
   },
+
 
   -- Настройка LSP клиента
   {
@@ -65,6 +66,11 @@ return {
           "--completion-style=detailed",
         }
       })
+
+lspconfig.marksman.setup({
+  capabilities = capabilities,
+  filetypes = { "markdown" }
+})
       
       -- Включить диагностику (показ ошибок)
       vim.diagnostic.config({
